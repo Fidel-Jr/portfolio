@@ -1,0 +1,80 @@
+@media screen and (max-width:1200px){
+    #desktop-nav{
+        display: none;
+    }
+    #hamburger-nav{
+        display: flex;
+    }
+}
+
+@media (min-width:400px) and (max-width:500px){
+    .arrow{
+        display: none;
+    }
+    
+
+}
+
+
+@media (min-width:768px){
+   
+    #about .about-details-container .about-containers{
+        display: flex;
+    }
+
+   
+
+    .contact-info-upper-container{
+        display: flex;
+        width: fit-content;
+    }
+
+    .arrow{
+        display: none;
+    }
+   
+}
+
+
+@media (min-width:992px){
+    #profile{
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        
+    }
+    .section__pic-container{
+        width: 30% !important;
+        align-items: center;
+        justify-content: center;
+        margin-right: 50px;
+    }
+    .section__pic-container img{
+        width: 100%;
+    }
+    
+
+    #about .section__pic-container{
+        width: 100% !important;
+    }
+
+    #about .section-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    #projects .about-containers{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .arrow{
+        position: absolute;
+        right: -5rem;
+        bottom: 2.5rem;
+    }
+
+    #experience .about-containers{
+        display: flex;
+    }
+}

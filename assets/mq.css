@@ -1,0 +1,31 @@
+@media screen and (max-width:1200px){
+    #desktop-nav{
+        display: none;
+    }
+    #hamburger-nav{
+        display: flex;
+    }
+}
+
+
+@media screen and (min-width:968px){
+   
+    #profile{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .section__pic-container img{
+        width: 80%;
+    }
+
+    .section__pic-container{
+        width: 50% !important;
+        align-items: center;
+        justify-content: center;
+        margin-right: 20px;
+    }
+
+
+
+}

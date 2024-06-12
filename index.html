@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
+    <link rel="stylesheet" href="assets/mediaqueries.css">
+     <!-- <link rel="stylesheet" href="assets/mq.css"> -->
+     <script src="assets/script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    
+    <nav id="desktop-nav" class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="logo"><a href="#">My Portfolio</a></div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+       
+    </nav>
+
+
+    <nav id="hamburger-nav">
+        <div class="logo"><a href="#">My Portfolio</a></div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about"  onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="images/hero-img.png" width="100%" style="border-radius: 50%;" alt="Fidel Colinares Profile Picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h2 class="title">Fidel Colinares Jr.</h2>
+            <p class="section__text__p2">Back End Developer</p>
+            <div class="btn-container">
+                <button class="button btn-color-2" onclick="window.open('images/resume.pdf')">Download CV</button>
+                <button class="button btn-color-1" onclick="location.href='#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <a href="https://web.facebook.com/profile.php?id=100081809533252"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://github.com/Fidel-Jr"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/colinares-jr/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/colinaresheeesh/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="section__text__p1">Get To Know Here</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="images/aboutme-img.png" style="border-radius: 50%;" alt="Profile Picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <!-- <div class="details-container">
+                       <a href="" class="icon trophy"><i class="fa fa-trophy"></i></a>
+                       <h3>Experience</h3>
+                       <p>2+ years <hr> Back End Development</p>
+
+                    </div> -->
+                    <div class="details-container">
+                        <a href="" class="icon cap"><i class="fa fa-graduation-cap"></i></a>
+                       <h3>Education</h3>
+                       <p>Bachelor in Information Technology Student <hr> BSIT 2nd Year</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>I am Fidel Salonga Colinares Jr. Second year college student from Davao del Norte State College, aspiring website developer with a love for coding. I want to use my skills to make easy-to-use and beneficial websites. I am always learning and excited to work on new projects in a lively environment.</p>
+                </div>
+            </div>
+        </div>
+        <!-- <a href="" class="icon arrow" onclick="location.href='#experience' "><i class="fa fa-arrow-down"></i></a> -->
+    </section>
+
+    <section id="experience">
+        <!-- <p class="section__text__p1">Explore My</p> -->
+        <h1 class="title">Skills</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <i class="fa fa-circle-check" aria-colspan="icon"></i>
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa fa-circle-check" aria-colspan="icon"></i>
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <!-- <article>
+                            <i class="fa fa-circle-check" aria-colspan="icon"></i>
+                            <div>
+                                <h3>SASS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article> -->
+                        <article>
+                            <i class="fa fa-circle-check" aria-colspan="icon"></i>
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <!-- <article>
+                            <i class="fa fa-circle-check" aria-colspan="icon"></i>
+                            <div>
+                                <h3>TypeScript</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article> -->
+                        <article>
+                            <i class="fa fa-circle-check" aria-colspan="icon"></i>
+                            <div>
+                                <h3>BOOTSTRAP</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Backend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <i class="fa fa-circle-check" aria-colspan="icon"></i>
+                            <div>
+                                <h3>PHP</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa fa-circle-check" aria-colspan="icon"></i>
+                            <div>
+                                <h3>LARAVEL</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa fa-circle-check" aria-colspan="icon"></i>
+                            <div>
+                                <h3>SQL/MYSQL</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <!-- <article>
+                            <i class="fa fa-circle-check" aria-colspan="icon"></i>
+                            <div>
+                                <h3>Git</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article> -->
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <a href="" class="icon arrow" onclick="location.href='./#projects' "><i class="fa fa-arrow-down"></i></a> -->
+    </section>
+    
+    <section id="projects">
+       
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experienced-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="images/hotel-reservation.png" alt="" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title"> <span style="color: rgb(55, 55, 55);">Project #1:</span> Hotel Room Reservation</h2>
+                    <div class="btn-container">
+                        <button class="button btn-color-2 project-btn" onclick="location.href='https://github.com'">GitHub</button>
+
+                        <button class="button btn-color-2 project-btn" onclick="location.href='https://github.com'">Live Demo</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="images/job-portal.png" alt="" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title"><span style="color: rgb(55, 55, 55);">Project #2:</span> Job Portal</h2>
+                    <div class="btn-container">
+                        <button class="button btn-color-2 project-btn" onclick="location.href='https://github.com'">GitHub</button>
+
+                        <button class="button btn-color-2 project-btn" onclick="location.href='https://github.com'">Live Demo</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="images/about-image.png" alt="" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title"><span style="color: rgb(55, 55, 55);">Project #3:</span> Ecommerce Website</h2>
+                    <div class="btn-container">
+                        <button class="button btn-color-2 project-btn" onclick="location.href='https://github.com'">GitHub</button>
+
+                        <button class="button btn-color-2 project-btn" onclick="location.href='https://github.com'">Live Demo</button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <!-- <a href="" class="icon arrow" onclick="location.href='./#projects' "><i class="fa fa-arrow-down"></i></a> -->
+    </section>
+
+
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+               <div><a href="" class="icon contact-icon email-icon"><i class="fa fa-envelope"></i></a></div> 
+                <p style="margin-top: 13px;"><a href="mailto:exampleemail@gmail.com">fidelsalongacolinares04@gmail.com</a></p>
+            </div>
+            <!-- <div class="contact-info-container">
+                <div><a href="" class="icon contact-icon"><i class="fa-brands fa-linkedin"></i></a></div> 
+                <p style="margin-top: 13px;"><a href="https://linkedin">Linkedin</a></p>
+            </div> -->
+        </div>
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container mt-5">
+                <ul class="nav-links">
+                    <!-- <li><a href="#">My Portfolio</a></li> -->
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p class="mt-5">Copyright &#169; 2024 Fidel Colinares. All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
+
+<script>
+    const swiper = new Swiper('.swiper', {
+
+        parallax: true,
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+  },
+
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+
+
+  
+});
+</script>
