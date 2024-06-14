@@ -5,34 +5,101 @@
     #hamburger-nav{
         display: flex;
     }
-}
 
-@media (min-width:400px) and (max-width:500px){
-    .arrow{
-        display: none;
-    }
     
-
+    
 }
+
+
 
 
 @media (min-width:768px){
-   
-    #about .about-details-container .about-containers{
-        display: flex;
+
+    
+    .section__text__p1{
+        text-align: center;
+        font-size: 1rem !important;
     }
 
+    .section__text__p2{
+        font-size: 1.75rem !important;
+    }
+
+    .title{
+        font-size: 2.5rem !important;
+    }
+
+    .btn-container{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        font-size: 1rem !important;
+    }
    
+    .button{
+        padding: 1rem;
+    }
+
+    .fa-brands{
+        font-size: 20px;
+    }
+
+    .text-container{
+        font-size: 1rem !important;
+    }
+   
+    .details-container{
+        font-size: 1rem !important;
+    }
+
+    article div h3,
+    .fa-circle-check{
+        font-size: 1rem !important;
+    }
+
+
+    #projects .btn-container button{
+        width: fit-content;
+        font-size: .75rem;
+    }
+
 
     .contact-info-upper-container{
-        display: flex;
         width: fit-content;
     }
 
-    .arrow{
-        display: none;
+    .contact-info-upper-container{
+        padding: 0.15rem 0.6rem !important;
     }
-   
+
+    .nav-links-container ul li{
+        font-size: 1rem !important;
+    }
+    
+    .fa-envelope{
+        font-size: 1rem;
+    }
+
+    .fa-envelope{
+        font-size: 1rem;
+    }
+
+    footer p{
+        font-size: 1rem !important;
+    }
+
+    section{
+
+        padding-top: 60px;
+        margin-bottom: 70px !important;
+    
+    }
+    .nav-links-container ul{
+        display: flex;
+        justify-content: center;
+        padding: 0 !important;
+    }
+
 }
 
 
@@ -43,6 +110,11 @@
         width: 100%;
         
     }
+
+    #profile .section__pic-container img{
+        display: flex;
+    }
+
     .section__pic-container{
         width: 30% !important;
         align-items: center;
@@ -55,7 +127,11 @@
     
 
     #about .section__pic-container{
-        width: 100% !important;
+        width: 50% !important;
+    }
+
+    #about .about-details-container{
+        width: 85%;
     }
 
     #about .section-container{
@@ -68,6 +144,15 @@
         flex-wrap: wrap;
     }
 
+    #projects .project-details{
+        display: none;
+    }
+
+
+    #projects .see-details-row{
+        display: flex;
+    }
+
     .arrow{
         position: absolute;
         right: -5rem;
@@ -77,4 +162,119 @@
     #experience .about-containers{
         display: flex;
     }
+
+    .section-container{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+
+    .contact-info-upper-container{
+        display: flex;
+        width: fit-content;
+    }
+
+    .arrow{
+        display: none;
+    }
+
+    .section__text__p1{
+        text-align: center;
+        font-size: 1rem !important;
+    }
+
+    .section__text__p2{
+        font-size: 1.75rem !important;
+    }
+
+    .title{
+        font-size: 2.75rem !important;
+    }
+
+    .btn-container{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        font-size: 1rem !important;
+    }
+   
+    .button{
+        padding: 1rem;
+    }
+
+    .fa-brands{
+        font-size: 20px;
+    }
+
+    .details-container{
+        font-size: 1rem !important;
+    }
+    
+    .text-container{
+        font-size: 1rem !important;
+    }
+
+    #experience .about-containers{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .experience-sub-title{
+        font-size: 1.5rem;
+    }
+
+    article div h3,
+        .fa-circle-check{
+        font-size: 1.25rem !important;
+    }
+    #projects .about-containers{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #projects .btn-container button{
+        width: fit-content;
+        font-size: 1rem;
+    }
+
+    .project-details{
+        display: none !important;
+    }
+    
+    .contact-info-upper-container{
+        width: fit-content;
+    }
+
+    .contact-info-container p{
+        font-size: 1.25rem !important;  
+    }
+
+    .nav-links-container ul li{
+        font-size: 1rem !important;
+    }
+
+    .contact-info-upper-container{
+        padding: 0.15rem 0.6rem !important;
+    }
+    
+    .fa-envelope{
+        font-size: 1rem;
+    }
+
+    footer p{
+        font-size: 1rem !important;
+    }
+
+    section{
+
+        padding-top: 60px;
+        margin-bottom: 100px !important;
+    
+    }
+
+    .nav-links-container ul{
+        display: flex;
+        justify-content: center;
+    }
+
 }
