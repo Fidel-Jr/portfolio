@@ -59,7 +59,7 @@
             <h2 class="title">Fidel Colinares Jr.</h2>
             <p class="section__text__p2">Back End Developer</p>
             <div class="btn-container">
-                <button class="button btn-color-2" onclick="window.open('images/resume.pdf')"> Download CV</button>
+                <button class="button btn-color-2 fade-in" onclick="window.open('images/resume.pdf')"> Download CV</button>
                 <button class="button btn-color-1" onclick="location.href='#contact'">Contact Info</button>
             </div>
             <div id="socials-container">
@@ -105,8 +105,8 @@
         <h1 class="title">Skills</h1>
         <div class="experience-details-container">
             <div class="about-containers">
-                <div class="details-container">
-                    <h2 class="experience-sub-title">Frontend Development</h2>
+                <div class="details-container shadow-lg">
+                    <h2 class="experience-sub-title mt-4">Frontend Development</h2>
                     <div class="article-container">
                         <article>
                             <i class="fa fa-circle-check" aria-colspan="icon"></i>
@@ -152,8 +152,8 @@
                         </article>
                     </div>
                 </div>
-                <div class="details-container">
-                    <h2 class="experience-sub-title">Backend Development</h2>
+                <div class="details-container shadow-lg">
+                    <h2 class="experience-sub-title mt-4">Backend Development</h2>
                     <div class="article-container">
                         <article>
                             <i class="fa fa-circle-check" aria-colspan="icon"></i>
@@ -200,7 +200,7 @@
                 
                 <div class="details-container color-container">
                     <div class="article-container">
-                        <img src="images/hotel-reservation.png" alt="" class="project-img">
+                        <img src="images/hotel-reservation-2.png" alt="" class="project-img">
                     </div>
                     <!-- <h2 class="experience-sub-title project-title"> <span style="color: rgb(55, 55, 55);">Project #1:</span> Hotel Room Reservation</h2> -->
                     <div class="btn-container mt-4">
@@ -222,7 +222,7 @@
 
                 <div class="details-container color-container">
                     <div class="article-container">
-                        <img src="images/job-portal.png" alt="" class="project-img">
+                        <img src="images/job-portal-2.png" alt="" class="project-img">
                     </div>
                     <!-- <h2 class="experience-sub-title project-title"><span style="color: rgb(55, 55, 55);">Project #2:</span> Job Portal</h2> -->
                     <div class="btn-container mt-4">
@@ -242,7 +242,7 @@
 
                 <div class="details-container color-container">
                     <div class="article-container">
-                        <img src="images/movie-app.png" alt="" class="project-img">
+                        <img src="images/movie-app-2.png" width="100%" alt="" class="project-img">
                     </div>
                     <!-- <h2 class="experience-sub-title project-title"><span style="color: rgb(55, 55, 55);">Project #3:</span> Ecommerce Website</h2> -->
                     <div class="btn-container mt-4">
@@ -321,8 +321,13 @@
 
     <script>
        
+        $(document).ready(function(){
+            $('.section__text__p1').fadeIn(500)
+            $('.btn-container .button').fadeIn('slow')
+        })
+
         $('#first-project').click(function(){
-            $('.project-details-1').toggle()
+            $('.project-details-1').toggle('500')
             
         })
 
@@ -331,6 +336,13 @@
         })
         $('#third-project').click(function(){
             $('.project-details-3').toggle()
+        })
+
+
+        document.addEventListener("DOMContentLoaded", function(event){
+            setTimeout(function() {
+                document.querySelector('.fade-in').classList.add('visible');
+            }, 100)
         })
 
     </script>
