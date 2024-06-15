@@ -193,12 +193,12 @@ section{
 }
 
 .section__text__p2{
-    font-size: 1rem !important;
+    font-size: 1.25rem !important;
     margin-bottom: 1rem;
 }
 
 .title{
-    font-size: 1.75rem !important;
+    font-size: 2.5rem !important;
     text-align: center;
 }
 
@@ -215,7 +215,7 @@ section{
 }
 
 .fa-brands{
-    font-size: 1rem;
+    font-size: 1.25rem;
 }
 
 /* BUTTONS */
@@ -224,13 +224,13 @@ section{
     display: flex;
     justify-content: center;
     gap: 1rem;
-    font-size: .75rem !important;
+    font-size: 0.85rem !important;
 }
 
 .button{
     font-weight: 600;
     transition:  all 300ms ease;
-    padding: .75rem;
+    padding: 1rem;
     width: fit-content;
     border-radius: 2rem;
 }
@@ -288,7 +288,7 @@ section{
 .section-container{
     gap: 4rem;
     height: 80%;
-    width: 70%;
+    width: 85%;
     margin: 0 auto;
 }
 
