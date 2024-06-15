@@ -15,6 +15,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap + Steller main styles -->
+	<link rel="stylesheet" href="assets/style-2.css">
 </head>
 
 <body>
@@ -73,7 +75,7 @@
 
     <section id="about">
         <p class="section__text__p1">Get To Know Here</p>
-        <h1 class="title">About Meww</h1>
+        <h1 class="title">About Me</h1>
         <div class="section-container">
             <div class="section__pic-container">
                 <img src="images/aboutme-img.png" style="border-radius: 50%;" alt="Profile Picture" class="about-pic">
@@ -86,7 +88,7 @@
                        <p>2+ years <hr> Back End Development</p>
 
                     </div> -->
-                    <div class="details-container">
+                    <div class="details-container shadow">
                         <a href="" class="icon cap"><i class="fa fa-graduation-cap"></i></a>
                        <h3>Education</h3>
                        <p>Bachelor in Information Technology Student <hr> BSIT 2nd Year Student</p>
@@ -191,102 +193,82 @@
         <!-- <a href="" class="icon arrow" onclick="location.href='./#projects' "><i class="fa fa-arrow-down"></i></a> -->
     </section>
     
-    <section id="projects">
-       
-        <p class="section__text__p1">Browse My Recent</p>
-        <h1 class="title">Projects</h1>
-        <div class="experienced-details-container">
-            <div class="about-containers">
-                
-                <div class="details-container color-container">
-                    <div class="article-container">
-                        <img src="images/hotel-reservation-2.png" alt="" class="project-img">
-                    </div>
-                    <!-- <h2 class="experience-sub-title project-title"> <span style="color: rgb(55, 55, 55);">Project #1:</span> Hotel Room Reservation</h2> -->
-                    <div class="btn-container mt-4">
-                        <button class="button btn-color-2 project-btn" onclick="location.href='https://github.com/Fidel-Jr/hotel-room-reservation'">GitHub</button>
-
-                        <button class="button btn-color-2 project-btn" id="first-project" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">See Details</button>
-                    </div>
-                    
-                </div>
-                
-                <div class="project-details project-details-1" style="display: none;">
-                    <div class="mt-3 mb-3">
-                        <div class="card card-body">
-                            <p> <i class="fa fa-thumbtack me-2"></i>  A user-friendly online <strong>Reservation System</strong> that allows guests to search for available rooms, make bookings and manage reservations seamlessly.</p>
-                        </div>
-                        
-                    </div>
-                </div>
-
-                <div class="details-container color-container">
-                    <div class="article-container">
-                        <img src="images/job-portal-2.png" alt="" class="project-img">
-                    </div>
-                    <!-- <h2 class="experience-sub-title project-title"><span style="color: rgb(55, 55, 55);">Project #2:</span> Job Portal</h2> -->
-                    <div class="btn-container mt-4">
-                        <button class="button btn-color-2 project-btn" onclick="location.href='https://github.com/Fidel-Jr/job-portal'">GitHub</button>
- 
-                        <button class="button btn-color-2 project-btn" id="second-project" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">See Details</button>
-                    </div>
-                </div>
-
-                <div class="project-details project-details-2" style="display: none;">
-                    <div class="mt-3 mb-3">
-                        <div class="card card-body">
-                            <p> <i class="fa fa-thumbtack me-2"></i> A <strong>Job Portal</strong> system is an online platform connecting job seekers with employers. It allows candidates to search and apply for job listings and upload resumes.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="details-container color-container">
-                    <div class="article-container">
-                        <img src="images/movie-app-2.png" width="100%" alt="" class="project-img">
-                    </div>
-                    <!-- <h2 class="experience-sub-title project-title"><span style="color: rgb(55, 55, 55);">Project #3:</span> Ecommerce Website</h2> -->
-                    <div class="btn-container mt-4">
-                        <button class="button btn-color-2 project-btn" onclick="location.href='https://github.com/Fidel-Jr/movie-app'">GitHub</button>
-
-                        <button class="button btn-color-2 project-btn" id="third-project" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">See Details</button>
-                    </div>
-                </div>           
-                
-                <div class="project-details project-details-3" style="display: none;">
-                    <div class="mt-3 mb-3">
-                        <div class="card card-body">
-                            <p> <i class="fa fa-thumbtack me-2"></i> A <strong>Movie App</strong> with the TMDB API helps users find and explore movies and TV shows. Users can search for titles, see details, watch trailers, and check ratings and reviews.</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="row see-details-row">
-                <div class="collapse col-lg-4 col-md-6 col-sm-12 mt-3" id="collapseExample">
-                    <div class="card card-body">
-                        <p> <i class="fa fa-thumbtack me-2"></i>  A user-friendly online <strong>Reservation System</strong> that allows guests to search for available rooms, make bookings and manage reservations seamlessly.</p>
-                    </div>
-                </div>
-                
     
-                <div class="collapse col-lg-4 col-md-6 col-sm-12 mt-3" id="collapseExample">
-                    <div class="card card-body">
-                        <p> <i class="fa fa-thumbtack me-2"></i> A <strong>Job Portal</strong> system is an online platform connecting job seekers with employers. It allows candidates to search and apply for job listings and upload resumes.</p>
-                    </div>
-                </div>
 
-                <div class="collapse col-lg-4 col-md-6 col-sm-12 mt-3" id="collapseExample">
-                    <div class="card card-body">
-                        <p> <i class="fa fa-thumbtack me-2"></i> A <strong>Movie App</strong> with the TMDB API helps users find and explore movies and TV shows. Users can search for titles, see details, watch trailers, and check ratings and reviews.</p>
+     <!-- Portfolio section -->
+     <section id="portfolio" class="section">
+        <div class="container text-center">
+            <h6 class="subtitle">Projects</h6>
+            <h6 class="section-title mb-5">Check My Wonderful Works</h6>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="img-wrapper">
+                        <img src="images/hotel-reservation-img.png" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Hotel Room Reservation</h5>
+                                <button class="button btn-color-2 project-btn text-white p-3" onclick="location.href='https://github.com/Fidel-Jr/hotel-room-reservation'">GitHub</button>
+                            </div>  
+                        </div>
                     </div>
+                    <div class="img-wrapper">
+                        <img src="images/job-portal-img.png" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Job Portal</h5>
+                                <button class="button btn-color-2 project-btn text-white p-3" onclick="location.href='https://github.com/Fidel-Jr/job-portal'">GitHub</button>
+                                <!-- <a href="javascript:void(0)"><i class="ti-link"></i></a> -->
+                            </div>                              
+                        </div>
+                    </div>                  
+                </div>
+                <div class="col-sm-4">
+                    <div class="img-wrapper">
+                        <img src="images/slms-img.png" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>School Library Management System</h5>
+                                
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="img-wrapper">
+                        <img src="images/movie-app-img.png" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Movie App - TMDB API</h5>
+                                <button class="button btn-color-2 project-btn text-white p-3" onclick="location.href='https://github.com/Fidel-Jr/movie-app'">GitHub</button>
+                            </div>                              
+                        </div>
+                    </div>                  
+                </div>
+                <div class="col-sm-4">
+                    <div class="img-wrapper">
+                        <img src="images/ecommerce-img.png" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Wang Ecommerce</h5>
+                               <p class="text-danger">Unfinished</p>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="img-wrapper">
+                        <img src="images/elms-img-1.png" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Employee Leave Management System</h5>
+                                <!-- <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
+                                <a href="javascript:void(0)"><i class="ti-link"></i></a> -->
+                            </div>                              
+                        </div>
+                    </div>                  
                 </div>
             </div>
-           
-            
+
         </div>
-        <!-- <a href="" class="icon arrow" onclick="location.href='./#projects' "><i class="fa fa-arrow-down"></i></a> -->
     </section>
+    <!-- End of portfolio section -->
 
 
     <section id="contact">
@@ -306,7 +288,7 @@
 
     <footer>
         <nav>
-            <div class="nav-links-container mt-5">
+            <div class="nav-links-container mt-4">
                 <ul class="nav-links">
                     <!-- <li><a href="#">My Portfolio</a></li> -->
                     <li><a href="#about">About</a></li>
@@ -316,7 +298,7 @@
                 </ul>
             </div>
         </nav>
-        <p class="mt-5">Copyright &#169; 2024 Fidel Colinares. All Rights Reserved</p>
+        <p class="mt-4">Copyright &#169; 2024 Fidel Colinares. All Rights Reserved</p>
     </footer>
 
     <script>

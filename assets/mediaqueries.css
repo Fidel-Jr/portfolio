@@ -100,6 +100,19 @@
         padding: 0 !important;
     }
 
+    #experience{
+        position: relative;
+        width: 85%;
+        padding: 0;
+        background-color: white !important;
+        margin: 0 auto;
+        color: black !important;
+    }
+
+    #experience .title{
+        color: black !important;
+    }
+
 }
 
 
